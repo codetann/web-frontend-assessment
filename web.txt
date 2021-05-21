@@ -1,0 +1,5 @@
+How Does The Web Work?
+
+The web works in different ways depending on what you are doing. If you are just loading up a web page, the process might look something like this. You pull up your browser and enter a url. The url is a short hand for an IP address for a web server. When you hit enter, the browser looks for the ip address in the cache of your computer. If it is not there it will look else where until it is found. When the web server is found it processes the request and then sends back the requested information. 
+
+The web is built on the internet. We have a local network of computers and devices at our homes. The router is the gateway/hub to the internet. The requests travel across the internet like a train, traveling to its destination. The internet is basically a series of connected computers relaying information to one another.

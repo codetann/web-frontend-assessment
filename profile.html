@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
+
+    <section class="profile-info">
+      <img
+        id="profile-picture"
+        src="https://mh-2-stockagency.panthermedia.net/media/previews/0011000000/11586000/11586559_high.jpg"
+        alt="profile-picture"
+      />
+      <h4>Eddie Lobaronskiy</h4>
+      <p>Sales Representitive</p>
+      <div class="buttons">
+        <button class="profile-button" id="color">My Favorite Color</button>
+        <button class="profile-button" id="place">My Favorite Place</button>
+        <button class="profile-button" id="ritual">My Favorite Ritual</button>
+      </div>
+    </section>
+
+    <section class="about-info">
+      <article>
+        <h2>Interests</h2>
+        <ul>
+          <li>Golfing</li>
+          <li>Hiking</li>
+          <li>Singing</li>
+          <li>Making Bread</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Skills</h2>
+        <ul>
+          <li>Cooking</li>
+          <li>Coding</li>
+          <li>Solving Puzzels</li>
+          <li>Giving a Great Thumbs Up</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Career Goals</h2>
+        <ul>
+          <li>CEO of Company</li>
+          <li>Remote Work</li>
+          <li>Have Company car</li>
+        </ul>
+      </article>
+
+      <form id="about-form">
+        Tell me about yourself!
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+    <script src="profile.js"></script>
+  </body>
+</html>

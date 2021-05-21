@@ -1,0 +1,1 @@
+const profileBtns = document.querySelector;
